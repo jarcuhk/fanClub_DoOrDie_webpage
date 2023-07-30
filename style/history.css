@@ -1,0 +1,168 @@
+@charset "utf-8";
+
+#container {
+	height: 2000px;
+	width: 1000px;
+	color: #FFF;
+	left: 50%;
+	clip: rect(auto,auto,auto,50%);
+	margin-left: 25%;
+}
+#history #text {
+	color: #FFF;
+	float: left;
+	height: 1150px;
+	width: 600px;
+	margin-right: 200px;
+	margin-left: 200px;
+}
+#history {
+	height: 1300px;
+	width: 1000px;
+}
+#history #title h1 {
+	font-size: 26px;
+	font-style: italic;
+	color: #FFF;
+	text-align: left;
+	float: left;
+}
+
+#history #title {
+	height: 50px;
+	width: 200px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 200px;
+	margin-right: 600px;
+	color: #FFF;
+}
+#history #year {
+	float: left;
+	height: 50px;
+	width: 600px;
+	margin-left: 300px;
+	margin-right: 100px;
+}
+#banner {
+	height: 300px;
+	width: 1000px;
+	float: left;
+}
+#content {
+	height: 1500px;
+	width: 1000px;
+	float: left;
+}
+
+
+#topsign {
+	height: 220px;
+	float: left;
+	width: 480px;
+	margin-right: 260px;
+	margin-left: 260px;
+}
+
+.background {
+	height: auto;
+	width: 100%;
+	position: fixed;
+	z-index: -100;
+	height: auto;
+	width: 100%;
+	left: 0px;
+	top: 0px;
+	min-height: 100%;
+	min-width: 100%;
+}
+#navbar {
+	height: 35px;
+	width: 1000px;
+	background-image: url(../img/nav.jpg);
+	border: 3px none #F00;
+	float: left;
+	margin-top: 30px;
+	margin-bottom: 15px;
+}
+#home_nav {
+	float: left;
+	margin-left: 150px;
+	margin-right: 50px;
+}
+#about_nav {
+	float: left;
+}
+#music_nav {
+	float: left;
+	margin-right: 50px;
+	margin-left: 50px;
+}
+#video_nav {
+	float: left;
+	margin-right: 50px;
+	margin-left: 50px;
+}
+#banner #navbar #drop ul {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+#banner #navbar #drop ul li {
+	float: left;
+	position: relative;
+}
+#banner #navbar #drop ul li ul {
+	position: absolute;
+	top: 36px;
+	visibility: hidden;
+}
+#drop {
+	width: 100px;
+	height: 35px;
+	float: left;
+	margin-right: 50px;
+	margin-left: 50px;
+}
+#banner #navbar #drop ul li a {
+	display: block;
+	height: 35px;
+	width: 100px;
+}
+#banner #navbar #drop ul li:hover ul {
+	visibility: visible;
+}
+#welcome {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 30px;
+	color: #FFF;
+	text-align: center;
+	float: left;
+	height: 100px;
+	width: 500px;
+	margin-right: 250px;
+	margin-left: 250px;
+	margin-top: 20px;
+	font-style: italic;
+}
+#footer {
+	float: left;
+	height: 300px;
+	width: 1000px;
+}
+#footer #to_top {
+	float: left;
+	height: 200px;
+	width: 400px;
+	margin-right: 300px;
+	margin-left: 300px;
+}
+#footer #license {
+	font-size: 12px;
+	color: #FFF;
+	float: right;
+	width: 240px;
+	text-align: right;
+	height: 14px;
+	margin-top: 80px;
+}

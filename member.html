@@ -1,0 +1,175 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Member - Do or Die</title>
+<link href="style/member.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+
+function change(n)
+{
+	var n1 = "<b>RYOTA</b>";
+	var n2 = "<b>TAKA</b>";
+	var n3 = "<b>TORU</b>";
+	var n4 = "<b>TOMOYO</b>";
+	var f1 = "Ryota Kohama 小浜 良太";
+	var f2 = "Moriuchi Takahiro 森内 貴寬";
+	var f3 = "Yamashita Tōru 山下 亨";
+	var f4 = "Kanki Tomoya 神吉 智也";
+	var p1 = "Bass";
+	var p2 = "Vocal";
+	var p3 = "Guitar";
+	var p4 = "Drum";
+	var b1 = "1989.9.4";
+	var b2 = "1988.4.7";
+	var b3 = "1988.12.7";
+	var b4 = "1987.6.27";
+	var img1 = document.getElementById("img1");
+	var img2 = document.getElementById("img2");
+	var img3 = document.getElementById("img3");
+	var img4 = document.getElementById("img4");
+	var img5 = document.getElementById("img5");
+	
+	if(n==1){
+		document.getElementById("name").innerHTML = n1;
+		document.getElementById("full").innerHTML = f1;
+		document.getElementById("posi").innerHTML = p1;
+		document.getElementById("born").innerHTML = b1;
+		img1.src = "img/ryota1.png";
+		img2.src = "img/ryota2.png";
+		img3.src = "img/ryota3.png";
+		img4.src = "img/ryota4.png";
+		img5.src = "img/ryota5.png";
+		document.getElementById("text1");
+		document.getElementById("text2");
+		document.getElementById("text3");
+		document.getElementById("text4");
+		document.getElementById("text5");
+	}
+	if(n==2){
+		document.getElementById("name").innerHTML = n2;
+		document.getElementById("full").innerHTML = f2;
+		document.getElementById("posi").innerHTML = p2;
+		document.getElementById("born").innerHTML = b2;
+		img1.src = "img/taka1.png";
+		img2.src = "img/taka2.png";
+		img3.src = "img/taka3.png";
+		img4.src = "img/taka4.png";
+		img5.src = "img/taka5.png";
+	}
+	if(n==3){
+		document.getElementById("name").innerHTML = n3;
+		document.getElementById("full").innerHTML = f3;
+		document.getElementById("posi").innerHTML = p3;
+		document.getElementById("born").innerHTML = b3;
+		img1.src = "img/toru1.png";
+		img2.src = "img/toru2.png";
+		img3.src = "img/toru3.png";
+		img4.src = "img/toru4.png";
+		img5.src = "img/toru5.png";
+	}
+	if(n==4){
+		document.getElementById("name").innerHTML = n4;
+		document.getElementById("full").innerHTML = f4;
+		document.getElementById("posi").innerHTML = p4;
+		document.getElementById("born").innerHTML = b4;
+		img1.src = "img/tomoya1.png";
+		img2.src = "img/tomoya2.png";
+		img3.src = "img/tomoya3.png";
+		img4.src = "img/tomoya4.png";
+		img5.src = "img/tomoya5.png";
+	}
+}
+</script>
+</head>
+
+<body onload="MM_preloadImages('img/homeon.jpg','img/abouton.jpg','img/musicon.jpg','img/bass_on.jpg','img/vocal_on.jpg','img/guitar_on.jpg','img/drum_on.jpg')">
+<div id="container">
+<div class="background"><img src="img/bg.jpg" width="2000" height="2000" alt="background" /></div>
+  <div id="banner">
+    <div id="topsign"><img src="img/top sign.jpg" width="480" height="220" alt="topsign" /></div>
+    <div id="navbar">
+      <a href="home.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('home_nav','','img/home_on.jpg',1)"><img src="img/home_off.jpg" width="100" height="35" id="home_nav" /></a>
+<div id="drop">
+      <ul>
+          <li><img src="img/about_on.jpg" width="100" height="35" alt="about_nav" id="about_nav"/>
+          	<ul>
+            	<li><a href="history.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('history_nav','','img/history_on.png',1)"><img src="img/history_off.png" width="100" height="35" id="history_nav" /></a></li>
+                <li><a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('member_nav','','img/member_on.png',1)"><img src="img/member_off.png" width="100" height="35" id="member_nav" /></a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      
+      <a href="music.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('music_nav','','img/music_on.jpg',0)"><img src="img/music_off.jpg" width="100" height="35" id="music_nav"/></a>
+      <a href="video.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('video_nav','','img/video_on.jpg',0)"><img src="img/video_off.jpg" width="100" height="35" id="video_nav"/></a>
+  </div>
+  </div>
+  <div id="content">
+    <div id="button">
+    	<a href="#" onclick="change(1); return false;" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('bass_button','','img/bass_on.jpg',1)"><img src="img/bass_off.jpg" width="250" height="300" id="bass_button" /></a>
+        <a href="#" onclick="change(2); return false;" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('vocal_button','','img/vocal_on.jpg',1)"><img src="img/vocal_off.jpg" width="250" height="300" id="vocal_button" /></a>
+        <a href="#" onclick="change(3); return false;" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('guitar_button','','img/guitar_on.jpg',1)"><img src="img/guitar_off.jpg" width="250" height="300" id="guitar_button" /></a>
+      <a href="#" onclick="change(4); return false;" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('drum_button','','img/drum_on.jpg',1)"><img src="img/drum_off.jpg" width="250" height="300" id="drum_button" /></a>
+     </div>
+    <div id="info">
+	  <div id="name"><b>NICKNAME</b></div>
+	  <div id="posi">Position</div>
+	  <div id="full">Full Name</div>
+	  <div id="born">Birthday</div>
+    </div>
+    <div class="pic" id="pic1"><img src="img/band1.png" alt="pic1" name="img1" width="800" height="500" id="img1" /></div>
+    <div class="text" id="text1">
+    	One Ok Rock (stylized as ONE OK ROCK) is a Japanese rock band formed in 2005, composed of Taka, Toru, Ryota, and Tomoya.
+        <p>ONE OK ROCK（日語：ワンオクロック），是一個日本搖滾樂團，成立於2005年。由Taka、Toru、Ryota、Tomoya、Alex五人組成的搖滾樂團(Alex於2009離團後為四人樂團)。團名多以全大寫表示。
+    </div>
+    <div class="pic" id="pic2"><img src="img/band2.png" alt="pic2" name="img2" width="800" height="500" id="img2" /></div>
+    <div class="text" id="text2">
+    	The band name "ONE OK ROCK" is changing from "one o'clock". Since the band members were secondary students, they could only practice at weekends. Usually the practice started at 01:00 of Sunday and ended in the morning. Base on pronunciation of japanese, pronounce of "R" and "L" are same, and change "O'clock" to "OK", "ONE OK ROCK" become the name of band. 
+    	<p>「ONE OK ROCK」的名稱由來是「one o'clock」。因為剛開始他們練習時是高中生，而只有周末才可以練習，通常他們從週六半夜一點(即週日凌晨一點)開始到早上。由於日本人的發音，「R」與「L」的發音相同，並且將「O'C」改成「OK」而成了他們的團名。
+    </div>
+    <div class="pic" id="pic3"><img src="img/band3.png" alt="pic3" name="img3" width="800" height="500" id="img3" /></div>
+    <div class="text" id="text3">
+    	The music style of ONE OK ROCK is different with other japan rock band, more than half of the lyrics of their song are English but not japanese, and pronounce of vocal TAKA is so correct that people can't tell that English from a japanese singer.
+        <p>第一次聽ONE OK ROCK的人，大概不少都誤以為他們是哪個歐美樂團。本身熱愛美式搖滾、工作人員也有許多外國人，因此OOR的歌曲中時常夾雜大量英文，主唱TAKA標準的發音幾乎讓人聽不出歌曲出自日本樂團之手。英文歌詞和無違和感的發音讓聽不懂日文的人也可以易聽易懂易記，吸引許多平常不接觸日本音樂的歌迷對他們也抱持高度興趣，大眾普遍接受度高也讓他們不少歌曲擁有傲人成績。像是人氣抒情曲《Wherever you are》長年停留KKBOX日語單曲榜上，至今更拿下202次冠軍（紀錄繼續推進中），亮眼成績讓天王天后級歌手都得閃邊站。
+    </div>
+    <div class="pic" id="pic4"><img src="img/band4.png" alt="pic4" name="img4" width="800" height="500" id="img4" /></div>
+    <div class="text" id="text4">
+    	Their songs have chosen to be theme song of video games and moive, like "The Beginning" of moive 《るろうに剣心》 and "Nothing helps" of game "Devil May Cry 5". They are working hard to expend their area to countries except Japan, they have tours around the world these years, and always feats in songs of other singers or band, for example, "SUMMER PARADISE" of USA band "Simple Plan" and "Dreaming Alone" of USA band "Against The Current". Which represented how popular they are nowdays. <p>
+    	他們的歌被選擇作為電影和遊戲的主題曲。而且他們近年在日本之外不同的國家也有演唱會，更與不同的樂隊和歌手合作，更能突顯他們的知名度。
+    </div>
+    <div class="pic" id="pic5"><img src="img/band5.png" alt="pic4" name="img5" width="800" height="500" id="img5" /></div>
+    <div class="text" id="text5">
+    	ONE OK ROCK's basic influences were Good Charlotte and Ellegarden, the group's initial idea began when Toru wanted to start a rock band and invited Ryota to form a rock band. Good Charlotte influences are seen on their first album. After the scandal of Alex Onizawa groping a high school student, the band decided to continue without Alex.<p>In their sixth album Jinsei×Boku=, they expressed how this album was influenced by Linkin Park's and Coldrain's screaming and yell-rapping. Their new seventh album 35XXXV, was produced along with producer John Feldmann whom also worked with 5 Seconds of Summer, The Used, and Sleeping With Sirens. The album was described as "too Americanized" by international fans, yet it managed to get the first place on the Oricon Album weekly ranking being the first time the band achieved the first place. Fans are in constant dispute over their dynamic music style change as new albums release different sounds. However, many remain loyal to their power of producing great music regardless of what type of music they produce.<p>
+    	ONE OK ROCK一直被樂隊Good Charlotte和Ellegarden影響著。OOR的組隊原因是因為隊長Toru想要組一個樂隊，所以他邀請了Ryota一起合作。在OOR的第一張專輯便可看見樂隊Good Charlotte對他們的影響。而在Alex Onizawa偷摸高中學生的醜聞之後，OOR便決定不再跟他合作。<p>
+在OOR的第六張專輯Jinsei×Boku=便可看見樂隊Linkin Park's 和 Coldrain's對他們的影響，如他們在,歌曲內使用了尖叫和呼喊饒舌。另外，在OOR的第七張專輯35XXXV，他們與製作人John Feldmann及樂隊5 Seconds of Summer，The Used和 Sleeping With Sirens一起合作，所以該專輯被國際粉絲形容為”過份美國化”的專輯。雖然如此，該專輯仍然拿到Oricon Album weekly ranking的第一名，讓OOR第一次拿到第一名。另外，粉絲們也因為他們新的專輯有比以前不同的音響而不斷爭執不下著他們的音樂風格有強烈的變化。但是，不論他們生產什麼類型的音樂，仍然有很多人會忠於他們，只因他們有著偉大的音樂的力量。
+    </div>
+  </div>
+  <div id="footer">
+  	<div id="to_top"><a href="#banner"><img src="img/to_top.png" width="400" height="200" alt="back_to_top" /></a></div>
+    <div id="license">by IVE students Lee Kwok Hon & Leung Ka Ho</div>
+  </div>
+</div>
+</body>
+</html>

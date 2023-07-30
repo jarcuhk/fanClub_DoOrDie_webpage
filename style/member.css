@@ -1,0 +1,192 @@
+@charset "utf-8";
+
+#container {
+	height: 5000px;
+	width: 1000px;
+	color: #FFF;
+	left: 50%;
+	clip: rect(auto,auto,auto,50%);
+	margin-left: 25%;
+}
+#banner {
+	height: 300px;
+	width: 1000px;
+	float: left;
+}
+#content {
+	height: 4500px;
+	width: 1000px;
+	float: left;
+}
+.pic {
+	float: left;
+	height: 500px;
+	width: 800px;
+	margin-top: 10px;
+	margin-right: 100px;
+	margin-bottom: 10px;
+	margin-left: 100px;
+}
+.text {
+	color: #FFF;
+	text-align: left;
+	float: left;
+	height: 200px;
+	width: 800px;
+	margin-top: 10px;
+	margin-right: 100px;
+	margin-bottom: 10px;
+	margin-left: 100px;
+}
+
+
+#info {
+	float: left;
+	height: 200px;
+	width: 800px;
+	margin-right: 100px;
+	margin-left: 100px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+#name , #full , #posi , #born {
+	float: left;
+	height: 80px;
+	width: 350px;
+	margin-top: 10px;
+	margin-right: 25px;
+	margin-bottom: 10px;
+	margin-left: 25px;
+	font-size: 20px;
+	color: #FFF;
+	text-align: center;
+	border-bottom-width: thin;
+	border-bottom-style: solid;
+	border-bottom-color: #FFF;
+}
+
+
+#button a #bass_button {
+	float: left;
+}
+#button a #vocal_button {
+	float: left;
+}
+#button a #guitar_button {
+	float: left;
+}
+#button a #drum_button {
+	float: left;
+}
+
+
+
+
+
+
+
+#topsign {
+	height: 220px;
+	float: left;
+	width: 480px;
+	margin-right: 260px;
+	margin-left: 260px;
+}
+
+.background {
+	height: auto;
+	width: 100%;
+	position: fixed;
+	z-index: -100;
+	height: auto;
+	width: 100%;
+	left: 0px;
+	top: 0px;
+	min-height: 100%;
+	min-width: 100%;
+}
+#navbar {
+	height: 35px;
+	width: 1000px;
+	background-image: url(../img/nav.jpg);
+	border: 3px none #F00;
+	float: left;
+	margin-top: 30px;
+	margin-bottom: 15px;
+}
+#button {
+	float: left;
+	height: 300px;
+	width: 1000px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#home_nav {
+	float: left;
+	margin-left: 150px;
+	margin-right: 50px;
+}
+#about_nav {
+	float: left;
+}
+#music_nav {
+	float: left;
+	margin-right: 50px;
+	margin-left: 50px;
+}
+#video_nav {
+	float: left;
+	margin-right: 50px;
+	margin-left: 50px;
+}
+#banner #navbar #drop ul {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+#banner #navbar #drop ul li {
+	float: left;
+	position: relative;
+}
+#banner #navbar #drop ul li ul {
+	position: absolute;
+	top: 36px;
+	visibility: hidden;
+}
+#drop {
+	width: 100px;
+	height: 35px;
+	float: left;
+	margin-right: 50px;
+	margin-left: 50px;
+}
+#banner #navbar #drop ul li a {
+	display: block;
+	height: 35px;
+	width: 100px;
+}
+#banner #navbar #drop ul li:hover ul {
+	visibility: visible;
+}
+#footer {
+	float: left;
+	height: 300px;
+	width: 1000px;
+}
+#footer #to_top {
+	float: left;
+	height: 200px;
+	width: 400px;
+	margin-right: 300px;
+	margin-left: 300px;
+}
+#footer #license {
+	font-size: 12px;
+	color: #FFF;
+	float: right;
+	width: 240px;
+	text-align: right;
+	height: 14px;
+	margin-top: 80px;
+}
