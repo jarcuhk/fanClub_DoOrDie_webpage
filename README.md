@@ -1,4 +1,4 @@
-# Do or Die Fan Club Website
+# "Do or Die" Fan Club Website
 
 Wwebsite of the "Do or Die", a virtual fan club dedicated to the legendary band "ONE OK ROCK." Here, you can explore the rich history of the band, get to know its talented members, enjoy music clips from all their songs, and watch captivating videos, including MVs, trailers, and interviews.
 
